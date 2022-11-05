@@ -81,15 +81,14 @@ html {
   background: lawngreen;
   position: absolute;
   bottom: 50%;
+  transform: rotate(0deg);
   transform-origin: bottom center;
   border-radius: 100% 100% 0 0;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 .arrows .second {
     background-color: #ee791a;
-    transform: rotate(270deg);
 }
 .arrows .hour {
     height: 10rem;
-    transform: rotate(90deg);
 }
